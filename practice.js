@@ -1,25 +1,25 @@
 //temperature 
 
-// function celsiusToFarenheit(celsius){
-//     let farenheit = (celsius *(9/5)) + 32;
-//     return farenheit;
-// }
-// let myCelsiusNumber = celsiusToFarenheit(37);
-// console.log('amar faren temp hocche ', myCelsiusNumber);
+function celsiusToFarenheit(celsius){
+    let farenheit = (celsius *(9/5)) + 32;
+    return farenheit;
+}
+let myCelsiusNumber = celsiusToFarenheit(37);
+console.log('amar faren temp hocche ', myCelsiusNumber);
 
-// let herCelsiusNumber = celsiusToFarenheit(40);
-// console.log('tar faren temp hocche ', herCelsiusNumber);
+let herCelsiusNumber = celsiusToFarenheit(40);
+console.log('tar faren temp hocche ', herCelsiusNumber);
 
-// function farenheitToCelsius(faren){
-//     let celsius = (faren - 32) * 5/9;
-//     return celsius;
-// }
+function farenheitToCelsius(faren){
+    let celsius = (faren - 32) * 5/9;
+    return celsius;
+}
 
-// let myFaren = farenheitToCelsius(103);
-// console.log('amar celsius tem hocche ', myFaren);
+let myFaren = farenheitToCelsius(103);
+console.log('amar celsius tem hocche ', myFaren);
 
-// let herFaren = farenheitToCelsius(106);
-// console.log('tar celsius tem hocche ', herFaren);
+let herFaren = farenheitToCelsius(106);
+console.log('tar celsius tem hocche ', herFaren);
 
 //grade calculation
 
@@ -49,17 +49,17 @@ function gradeSystem(result){
         console.log('you are failure ');
     }
 }
-// gradeSystem(25);
-// gradeSystem(59);
-// gradeSystem(80);
-// gradeSystem(44);
+gradeSystem(25);
+gradeSystem(59);
+gradeSystem(80);
+gradeSystem(44);
 
 //simple interest calc
 
-// let deposit = 3000;
-// let rate = (8/100);
-// let interest = deposit * rate * 2;
-// console.log(interest);
+let deposit = 3000;
+let rate = (8/100);
+let interest = deposit * rate * 2;
+console.log(interest);
 
 function getdepositToInterest(deposit, year){
     let result = deposit * (8/100) * year;
